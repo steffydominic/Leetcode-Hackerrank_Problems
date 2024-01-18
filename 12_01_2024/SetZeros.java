@@ -34,8 +34,8 @@ public class SetZeros {
     }
 
     private static void printMatrix(int[][] matrix) {
-        for (int[] row : matrix) {
-            for (int value : row) {
+        for (int[] row : matrix) {//row
+            for (int value : row) {//col
                 System.out.print(value + " ");
             }
             System.out.println();
