@@ -6,10 +6,7 @@ public class PermutationorNot {
         String str2 = "silent";
 
         if (str1.length() != str2.length()) {
-            System.out.println("permutations");
-            return;
-        }
-
+           
         char[] ch1 = str1.toCharArray();
         char[] ch2 = str2.toCharArray();
         Arrays.sort(ch1);
@@ -20,5 +17,6 @@ public class PermutationorNot {
         } else {
             System.out.println("not a permutations");
         }
+    }
     }
 }
